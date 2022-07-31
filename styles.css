@@ -1,0 +1,49 @@
+@font-face {
+    font-family: LCD;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0C4A6E;
+    color: #EEEEEE;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 28px;
+    align-items: center;
+}
+.team{
+    width: 300px;
+
+}
+.teamname{
+    margin: 0; /*without this huge margin top and bottom driven by font size*/
+    text-align: center;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    /* identical to box height, or 90% */
+    color: #EEEEEE;
+}
+.teamscore{
+    font-family: LCD, Geneva, Tahoma, sans-serif;
+    background: #080001;
+    width: 170px; /*this is big enough for 3 digits*/
+    border-radius: 5px;
+    text-align: center;
+    font-size: 90px;
+    line-height: 126px;
+    margin: 40px auto; /* without this I had a huge 90px margin on top and bottom, driven by font size
+    controls space between the black box and team name*/
+    padding: 20px 10px 10px 10px; /*creates space between digits and black box edges*/
+    color: red;
+}
+ 
