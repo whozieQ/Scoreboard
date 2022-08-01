@@ -8,20 +8,23 @@
                 <h3 class="teamname">HOME</h3>
                 <p class="teamscore" id="home-score">000</p>
                 <div class="team-addpoints">
-                    <button class="points-btn" id="home1">+1</button>
-                    <button class="points-btn" id="home2">+2</button>
-                    <button class="points-btn" id="home3">+3</button>
+                    <button class="points-btn" id="home1" onclick="increment_home1()">+1</button>
+                    <button class="points-btn" id="home2" onclick="increment_home2()">+2</button>
+                    <button class="points-btn" id="home3" onclick="increment_home3()">+3</button>
                 </div>
             </div>
             <div id="guest" class="team">
                 <h3 class="teamname">GUEST</h3>
                 <p class="teamscore" id="guest-score">000</p>
                 <div class="team-addpoints">
-                    <button class="points-btn" id="guest1">+1</button>
-                    <button class="points-btn" id="guest2">+2</button>
-                    <button class="points-btn" id="guest3">+3</button>
+                    <button class="points-btn" id="guest1" onclick="increment_guest1()">+1</button>
+                    <button class="points-btn" id="guest2" onclick="increment_guest2()">+2</button>
+                    <button class="points-btn" id="guest3" onclick="increment_guest3()">+3</button>
                 </div>
             </div>
+        </div>
+        <div>
+            <button id="newgame" onclick="reset()">New Game</button>
         </div>
         <script src="index.js"></script>
     </body>
